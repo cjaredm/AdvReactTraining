@@ -2,10 +2,7 @@ import Link from "next/link";
 
 const Sell = props => (
   <div>
-    hey!
-    <Link href="/">
-      <a>Go to home</a>
-    </Link>
+    <p>Sell Page</p>
   </div>
 );
 

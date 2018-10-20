@@ -1,9 +1,3 @@
-import Link from "next/link";
+import Home from "./index";
 
-const Items = props => (
-  <div>
-    <p>Items Page</p>
-  </div>
-);
-
-export default Items;
+export default Home;

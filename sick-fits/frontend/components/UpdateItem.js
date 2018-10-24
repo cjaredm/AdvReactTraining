@@ -59,8 +59,7 @@ class UpdateItem extends Component {
   render() {
     return (
       <Query query={SINGLE_ITEM_QUERY} variables={{ id: this.props.id }}>
-        {stuff => {
-          const { data, loading } = stuff;
+        {({ data, loading }) => {
           if (loading) return <p>Loading...</p>;
           if (!data.item) return <p>No item found for ID.</p>;
 

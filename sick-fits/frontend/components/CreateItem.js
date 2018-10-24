@@ -81,7 +81,7 @@ class CreateItem extends Component {
               // Send them to item page
               Router.push({
                 pathname: '/item',
-                query: { id: response.data.createitem.id }
+                query: { id: response.data.createItem.id }
               });
             }}
           >

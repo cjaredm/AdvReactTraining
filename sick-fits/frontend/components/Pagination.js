@@ -40,7 +40,6 @@ function Pagination(props) {
                 pathname: 'items',
                 query: { page: page - 1 }
               }}
-              aria-disabled
             >
               <a className="next" aria-disabled={page <= 1}>
                 Prev

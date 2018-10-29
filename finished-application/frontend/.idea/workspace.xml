@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b7f6caa-0792-470c-bf79-7fd906d5954f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../sick-fits/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../sick-fits/backend/src/resolvers/Query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sick-fits/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sick-fits/backend/src/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sick-fits/frontend/components/Items.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../sick-fits/frontend/components/Items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sick-fits/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../sick-fits/frontend/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sick-fits/backend/datamodel.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/../../sick-fits/backend/datamodel.prisma" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +17,7 @@
     <session id="1031661884">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="3" />
@@ -67,7 +64,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/DeleteItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="962">
               <caret line="37" column="19" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="37" selection-end-column="19" />
             </state>
           </provider>
@@ -94,9 +91,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="719" />
+    <option name="width" value="1161" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -168,18 +165,17 @@
       <updated>1539663476121</updated>
       <workItem from="1539663477500" duration="245000" />
       <workItem from="1540225033794" duration="214000" />
-      <workItem from="1540350250574" duration="391000" />
+      <workItem from="1540350250574" duration="399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="850000" />
+    <option name="totallyTimeSpent" value="858000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="719" height="877" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1161" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3295129" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32894737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -222,7 +218,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/DeleteItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="962">
           <caret line="37" column="19" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>

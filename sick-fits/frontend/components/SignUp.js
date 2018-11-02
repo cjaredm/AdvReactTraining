@@ -37,7 +37,7 @@ class SignUp extends Component {
               e.preventDefault();
               const response = signup()
                 .then(res => {
-                  console.log(res);
+                  // console.log(res);
                   this.setState({ name: '', email: '', password: '' });
                 })
                 .catch(e => console.log(e));

@@ -1,8 +1,14 @@
-import NavStyles from "./styles/NavStyles";
-import Link from "next/link";
+import NavStyles from './styles/NavStyles';
+import Link from 'next/link';
+import User from './User';
 
 const Nav = props => (
   <NavStyles>
+    <User>
+      {({ data: { me } }) => {
+        return <p>{me.name}</p>;
+      }}
+    </User>
     <Link href="/items">
       <a>Shop</a>
     </Link>

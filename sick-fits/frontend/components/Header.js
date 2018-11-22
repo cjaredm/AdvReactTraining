@@ -1,8 +1,9 @@
-import Link from "next/link";
-import styled from "styled-components";
+import Link from 'next/link';
+import NProgress from 'nprogress';
+import styled from 'styled-components';
 import Router from 'next/router';
-import NProgress from "nprogress";
-import Nav from "./Nav";
+import Cart from './Cart';
+import Nav from './Nav';
 
 Router.onRouteChangeStart = () => NProgress.start();
 Router.onRouteChangeComplete = () => NProgress.done();
@@ -22,7 +23,7 @@ const Header = props => (
       <p>Search</p>
     </div>
     <div>
-      <p>Cart</p>
+      <Cart />
     </div>
   </StyledHeader>
 );
